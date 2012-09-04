@@ -1,0 +1,13 @@
+url.gtx.dev=http://omni-as01.dev.gale.web:8080/ps/start.do?p=LitRG&u=test_automation&password=qa
+url.gtx.qa=http://go.qa.gghybrid.com/ps/start.do?p=LitRG&u=test_automation&password=qa
+url.gtx.staging=http://find.galeext.com/ps/start.do?p=LitRG&u=test_automation&password=qa
+url.gtx.prod=http://go.galegroup.com/ps/start.do?p=LitRG&u=test_automation&password=qa
+
+
+url.galaxy.qa=http://galaxy.qa.gale.web/galaxy-web/
+url.galaxy.staging=http://galaxy.stage.gale.web/galaxy-web/
+url.galaxy.prod=http://galaxy.prod.gale.web/galaxy-web/
+
+url.ncco.qa=http://gdc.eqa.ggtest.com/gdc/ncco?u=ncco_all_mod&password=ncco_all_mod
+url.ncco.staging=http://gdc.stage.gale.web/gdc/ncco?u=ncco_all_mod&password=ncco_all_mod
+url.ncco.prod=http://ncco.galegroup.com/gdc/ncco?u=ncco_all_mod&password=ncco_all_mod
