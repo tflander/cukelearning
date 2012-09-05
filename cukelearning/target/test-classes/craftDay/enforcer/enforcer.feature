@@ -18,3 +18,9 @@ Scenario: Product Owner not in team room
 	Given Product owner is absent
 	When  we need product owner input
 	Then  Go knock on product owner's door 
+
+Scenario:  QA not in team room
+
+	Given QA is not in team room
+	When we need to test
+	Then we talk to TC
