@@ -1,130 +1,209 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri('craftDay\enforcer\enforcer.feature');
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri('craftDay\mindtap\mindtapSearch.feature');
 formatter.feature({
-  "id": "enforcer",
-  "description": "\r\nAs development team, when a product owner acts up\r\nI want Selva\u0027s enforcement team to knock on their door\r\nSo that the team\u0027s velocity will increase\r\n\r\nTODO: Product owner doesn\u0027t groom backlog\r\nTODO: Product owner defers defect",
-  "name": "Enforcer",
+  "id": "some-mindtap-thingy",
+  "description": "\r\nAs a student\r\nI want to search for a concept\r\nSo I can understand it better\r\n\r\nTODO:  consider \"no results\" case",
+  "name": "Some Mindtap Thingy",
   "keyword": "Feature",
   "line": 1
 });
 formatter.scenario({
-  "id": "enforcer;behaving-product-owner",
+  "id": "some-mindtap-thingy;;;2",
+  "tags": [
+    {
+      "name": "@craftday",
+      "line": 9
+    }
+  ],
   "description": "",
-  "name": "Behaving Product Owner",
-  "keyword": "Scenario",
-  "line": 10,
+  "name": "",
+  "keyword": "Scenario Outline",
+  "line": 19,
   "type": "scenario"
 });
 formatter.step({
-  "name": "Product owner is behaving",
+  "name": "I\u0027m in medical",
   "keyword": "Given ",
-  "line": 12
+  "line": 12,
+  "matchedColumns": [
+    0
+  ]
 });
 formatter.step({
-  "name": "We check to see if enforcing is necessary",
+  "name": "I execute a search for cancer",
   "keyword": "When ",
-  "line": 13
+  "line": 13,
+  "matchedColumns": [
+    1
+  ]
 });
 formatter.step({
-  "name": "Enforcement is not necessary",
+  "name": "I get Luke-emia",
   "keyword": "Then ",
-  "line": 14
+  "line": 14,
+  "matchedColumns": [
+    2
+  ]
 });
 formatter.match({
-  "location": "EnforcerStepDefs.Product_owner_is_behaving()"
+  "arguments": [
+    {
+      "val": "medical",
+      "offset": 7
+    }
+  ],
+  "location": "MindtapSearchStepDefs.I_m_in(String)"
 });
 formatter.result({
-  "duration": 355790907,
+  "duration": 8365608,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": " cancer",
+      "offset": 22
+    }
+  ],
+  "location": "MindtapSearchStepDefs.I_execute_a_search_for(String)"
+});
+formatter.result({
+  "duration": 31199,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Luke-emia",
+      "offset": 6
+    }
+  ],
+  "location": "MindtapSearchStepDefs.I_get(String)"
+});
+formatter.result({
+  "duration": 116807,
   "status": "pending",
-  "error_message": "cucumber.runtime.PendingException: TODO: implement me\r\n\tat craftDay.enforcer.EnforcerStepDefs.Product_owner_is_behaving(EnforcerStepDefs.java:12)\r\n\tat ✽.Given Product owner is behaving(craftDay\\enforcer\\enforcer.feature:12)\r\n"
-});
-formatter.match({
-  "location": "EnforcerStepDefs.We_check_to_see_if_enforcing_is_necessary()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "EnforcerStepDefs.Enforcement_is_not_necessary()"
-});
-formatter.result({
-  "status": "skipped"
+  "error_message": "cucumber.runtime.PendingException: TODO: implement me\r\n\tat craftDay.mindtap.MindtapSearchStepDefs.I_get(MindtapSearchStepDefs.java:32)\r\n\tat ✽.Then I get Luke-emia(craftDay\\mindtap\\mindtapSearch.feature:14)\r\n"
 });
 formatter.scenario({
-  "id": "enforcer;product-owner-not-in-team-room",
+  "id": "some-mindtap-thingy;;;3",
+  "tags": [
+    {
+      "name": "@craftday",
+      "line": 9
+    }
+  ],
   "description": "",
-  "name": "Product Owner not in team room",
-  "keyword": "Scenario",
-  "line": 16,
+  "name": "",
+  "keyword": "Scenario Outline",
+  "line": 20,
   "type": "scenario"
 });
 formatter.step({
-  "name": "Product owner is absent",
+  "name": "I\u0027m in medical",
   "keyword": "Given ",
-  "line": 18
+  "line": 12,
+  "matchedColumns": [
+    0
+  ]
 });
 formatter.step({
-  "name": "we need product owner input",
+  "name": "I execute a search for acne",
   "keyword": "When ",
-  "line": 19
+  "line": 13,
+  "matchedColumns": [
+    1
+  ]
 });
 formatter.step({
-  "name": "Go knock on product owner\u0027s door",
+  "name": "I get pimple",
   "keyword": "Then ",
-  "line": 20
+  "line": 14,
+  "matchedColumns": [
+    2
+  ]
 });
 formatter.match({
-  "location": "EnforcerStepDefs.Product_owner_is_absent()"
+  "arguments": [
+    {
+      "val": "medical",
+      "offset": 7
+    }
+  ],
+  "location": "MindtapSearchStepDefs.I_m_in(String)"
 });
 formatter.result({
-  "duration": 192081,
+  "duration": 18263,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": " acne",
+      "offset": 22
+    }
+  ],
+  "location": "MindtapSearchStepDefs.I_execute_a_search_for(String)"
+});
+formatter.result({
+  "duration": 14839,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "pimple",
+      "offset": 6
+    }
+  ],
+  "location": "MindtapSearchStepDefs.I_get(String)"
+});
+formatter.result({
+  "duration": 97022,
   "status": "pending",
-  "error_message": "cucumber.runtime.PendingException: TODO: implement me\r\n\tat craftDay.enforcer.EnforcerStepDefs.Product_owner_is_absent(EnforcerStepDefs.java:30)\r\n\tat ✽.Given Product owner is absent(craftDay\\enforcer\\enforcer.feature:18)\r\n"
-});
-formatter.match({
-  "location": "EnforcerStepDefs.we_need_product_owner_input()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "EnforcerStepDefs.Go_knock_on_product_owner_s_door()"
-});
-formatter.result({
-  "status": "skipped"
+  "error_message": "cucumber.runtime.PendingException: TODO: implement me\r\n\tat craftDay.mindtap.MindtapSearchStepDefs.I_get(MindtapSearchStepDefs.java:32)\r\n\tat ✽.Then I get pimple(craftDay\\mindtap\\mindtapSearch.feature:14)\r\n"
 });
 formatter.scenario({
-  "id": "enforcer;qa-not-in-team-room",
+  "id": "some-mindtap-thingy;",
   "description": "",
-  "name": "QA not in team room",
+  "name": "",
   "keyword": "Scenario",
   "line": 22,
   "type": "scenario"
 });
 formatter.step({
-  "name": "QA is not in team room",
+  "name": "not ready for prime time",
   "keyword": "Given ",
   "line": 24
 });
 formatter.step({
-  "name": "we need to test",
+  "name": "unknown",
   "keyword": "When ",
   "line": 25
 });
 formatter.step({
-  "name": "we talk to TC",
+  "name": "yada",
   "keyword": "Then ",
   "line": 26
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "MindtapSearchStepDefs.not_ready_for_prime_time()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 8370,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "MindtapSearchStepDefs.unknown()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 52886,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MindtapSearchStepDefs.yada()"
+});
+formatter.result({
+  "duration": 30819,
+  "status": "passed"
 });
 });

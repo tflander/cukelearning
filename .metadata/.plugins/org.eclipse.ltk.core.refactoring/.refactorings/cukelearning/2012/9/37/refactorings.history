@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;cukelearning/src/test/resources/craftDay/qualityAssessor/QualityAssessor.feature&apos; to &apos;domainManager.feature&apos;" description="Rename resource &apos;QualityAssessor.feature&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/resources/craftDay/qualityAssessor/QualityAssessor.feature" name="domainManager.feature" stamp="1347464668669" updateReferences="true"/>
+</session>
