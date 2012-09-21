@@ -1,7 +1,6 @@
 package craftDay.sueDixon;
 
-import junit.framework.Assert;
-import cucumber.annotation.en.*;
+import cucumber.annotation.en.Given;
 import cucumber.runtime.PendingException;
 
 public class SueDixonStepDefs {
