@@ -1,0 +1,8 @@
+package org.cubanForCuke;
+
+public class Cuban {
+
+	public static void timeBombUntil() {
+		
+	}
+}

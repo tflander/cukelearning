@@ -1,0 +1,29 @@
+package craftDay.blah;
+
+import org.cubanForCuke.ManualAcceptanceTestingCompleted;
+
+import cucumber.annotation.en.*;
+import cucumber.runtime.PendingException;
+
+public class BlahStepDefs {
+
+	
+	@Given("^blah$")
+	@ManualAcceptanceTestingCompleted(by="Me")
+	public void blah() {
+	}
+
+	@When("^blargh$")
+	@ManualAcceptanceTestingCompleted(dateCompleted="20-Sept-2012")
+	public void blargh() {
+	}
+
+	@Then("^yada$")
+	@ManualAcceptanceTestingCompleted(comment="this was obvious, so we are not going to test")
+	public void yada() {
+	    // Express the Regexp above with the code you wish you had
+		System.out.println("BL");
+	    throw new PendingException();
+	}
+
+}

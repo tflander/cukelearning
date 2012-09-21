@@ -1,0 +1,5 @@
+package org.cubanForCuke;
+
+public class FunctionalityLateException extends Exception {
+
+}

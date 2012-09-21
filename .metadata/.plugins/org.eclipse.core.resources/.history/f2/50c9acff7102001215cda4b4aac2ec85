@@ -1,0 +1,8 @@
+package craftDay.sueDixon;
+
+import cucumber.annotation.en.*;
+import cucumber.runtime.PendingException;
+
+public class SueDixonStepDefs {
+	
+}

@@ -1,0 +1,12 @@
+package org.cubanForCuke;
+
+import java.util.Locale;
+
+import java.util.Calendar;
+
+public class Cuban {
+
+	public static void timeBombUntil() {
+		Calendar.getInstance(Locale.ENGLISH);
+	}
+}

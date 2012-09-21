@@ -1,0 +1,18 @@
+Feature: Domain Manager
+
+	As a 
+	I want 
+	So 
+	
+	TODO: We need to flush this out further with the product owner.
+	
+Background:
+	Given I'm in NCCO
+		
+Scenario: Define a domain
+
+	Given x	
+	
+	When y
+	
+	Then z

@@ -1,0 +1,26 @@
+package org.cubanForCuke;
+
+import java.util.Locale;
+import java.util.Date;
+
+import java.util.Calendar;
+
+public class Cuban {
+
+	public static void timeBombUntil(int year, int month, int date) {
+		Calendar cal = Calendar.getInstance(Locale.ENGLISH);
+		
+		cal.set(year, month, date);
+		Date whenToFail = cal.getTime();
+		
+		Date now = new Date();
+		
+		if(now.after(whenToFail)) {
+			
+		}
+	}
+	
+	public static void main(String[] args) {
+		timeBombUntil(2012, Calendar.SEPTEMBER, 19);
+	}
+}

@@ -1,0 +1,6 @@
+package org.cubanForCuke;
+
+public @interface ManualAcceptanceTestingCompleted {
+	String comment();
+	String dateCompleted();
+}

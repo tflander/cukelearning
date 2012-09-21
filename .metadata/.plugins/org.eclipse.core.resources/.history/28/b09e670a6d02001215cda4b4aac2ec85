@@ -1,0 +1,32 @@
+package craftDay.sueDixon;
+
+import cucumber.annotation.en.*;
+import cucumber.runtime.PendingException;
+
+public class SueDixonStepDefs {
+	@Given("^I'm in NCCO$")
+	public void I_m_in_NCCO() {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Given("^On home page$")
+	public void On_home_page() {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@When("^I search for term (.*)$")
+	public void I_search_for_term_contortionist(String term) {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^I see awesome photos on the result list page$")
+	public void I_see_awesome_photos_on_the_result_list_page() {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+
+}

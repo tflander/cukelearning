@@ -2,4 +2,11 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="cucumber.annotation.Before"/>
 <fullyQualifiedTypeName name="craftDay.enforcer.support.Testharness"/>
+<fullyQualifiedTypeName name="cucumber.annotation.en.When"/>
+<fullyQualifiedTypeName name="cucumber.runtime.PendingException"/>
+<fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.util.Locale"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>

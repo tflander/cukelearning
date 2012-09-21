@@ -1,0 +1,31 @@
+Feature: Digitized Photos
+
+	As a 
+	I want 
+	So 
+	
+	TODO: We need to flush this out further with the product owner.
+	
+Background:
+	Given I'm in NCCO
+		
+Scenario Outline: Basic search for photos
+
+	Given On home page	
+	
+	When I search for term <term>
+	
+	Then I see gallery view on the result list page
+	
+		Examples:
+		
+		| term |
+		| contortionist |
+		
+Scenario:  Gallery view more results 
+
+	Given on result list with gallery view
+	
+	Then have "more results" link
+	
+	 
