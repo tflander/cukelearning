@@ -1,0 +1,94 @@
+package craftDay.ncco;
+
+import cucumber.annotation.Before;
+import cucumber.annotation.en.*;
+import cucumber.runtime.PendingException;
+
+public class DigitizedPhotosStepDefs {
+	
+	NccoTestHarness testHarness;
+	
+	@Before
+	public void setup() {
+		
+	}
+
+	@Given("^I'm in NCCO$")
+	public void I_m_in_NCCO() {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Given("^On home page$")
+	public void On_home_page() {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@When("^I search for a term with images$")
+	public void I_search_for_a_term_with_images() {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^I see gallery view on the result list page$")
+	public void I_see_gallery_view_on_the_result_list_page() {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^the gallery view has a \"([^\"]*)\" link$")
+	public void the_gallery_view_has_a_link(String arg1) {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^we have photo content type limiter$")
+	public void we_have_photo_content_type_limiter() {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@When("^I search for term with no images$")
+	public void I_search_for_term_with_no_images() {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^I don't see gallery view on the result list page$")
+	public void I_don_t_see_gallery_view_on_the_result_list_page() {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^we have no \"([^\"]*)\" link$")
+	public void we_have_no_link(String arg1) {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^we have no photo content type limiter$")
+	public void we_have_no_photo_content_type_limiter() {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Given("^On the results list with gallery view$")
+	public void On_the_results_list_with_gallery_view() {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@When("^I navigate to the full list view of photographs$")
+	public void I_navigate_to_the_full_list_view_of_photographs() {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^I see more photographs$")
+	public void I_see_more_photographs() {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+}

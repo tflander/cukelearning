@@ -1,0 +1,9 @@
+package craftDay.ncco;
+
+public class NccoComputerTestHarness implements NccoTestHarness {
+
+	public void launchNcco() {
+		System.out.println("Launch NCCO in Computer Browser");
+	}
+
+}

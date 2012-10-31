@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="cucumber.annotation.Before"/>
 <fullyQualifiedTypeName name="craftDay.enforcer.support.Testharness"/>
 <fullyQualifiedTypeName name="cucumber.annotation.en.When"/>
-<fullyQualifiedTypeName name="cucumber.runtime.PendingException"/>
 <fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
 <fullyQualifiedTypeName name="java.util.Locale"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="org.cubanForCuke.FunctionalityLateException"/>
 <fullyQualifiedTypeName name="org.cubanForCuke.ManualAcceptanceTestingCompleted"/>
+<fullyQualifiedTypeName name="org.cubanForCuke.Cuban"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="cucumber.annotation.en.Then"/>
+<fullyQualifiedTypeName name="cucumber.runtime.PendingException"/>
+<fullyQualifiedTypeName name="java.lang.UnsupportedOperationException"/>
+<fullyQualifiedTypeName name="cucumber.annotation.Before"/>
+<fullyQualifiedTypeName name="craftDay.ncco.NccoMobileTestHarness"/>
+<fullyQualifiedTypeName name="craftDay.ncco.NccoComputerTestHarness"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="craftDay.ncco.GenericTestHarness"/>
 </qualifiedTypeNameHistroy>

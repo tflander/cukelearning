@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="craftDay.ncco" project="cukelearning" tests="16" started="16" failures="0" errors="0" ignored="8">
+  <testsuite name="craftDay.ncco.RunCukesTest" time="0.046">
+    <testsuite name="Feature: Digitized Photos" time="0.046">
+      <testsuite name="Scenario: Successful basic search for photos" time="0.009">
+        <testcase name="Given I'm in NCCO" classname="Given I'm in NCCO" time="0.003"/>
+        <testcase name="Given On home page" classname="Given On home page" time="0.0"/>
+        <testcase name="When I search for a term with images" classname="When I search for a term with images" time="0.0"/>
+        <testcase name="Then I see gallery view on the result list page" classname="Then I see gallery view on the result list page" time="0.004"/>
+        <testcase name="And the gallery view has a &quot;more results&quot; link" classname="And the gallery view has a &quot;more results&quot; link" time="0.002"/>
+        <testcase name="And we have photo content type limiter" classname="And we have photo content type limiter" time="0.0" ignored="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Unsuccessful basic search for photos" time="0.001">
+        <testcase name="Given I'm in NCCO" classname="Given I'm in NCCO" time="0.0"/>
+        <testcase name="Given On home page" classname="Given On home page" time="0.0"/>
+        <testcase name="When I search for term with no images" classname="When I search for term with no images" time="0.0" ignored="true"/>
+        <testcase name="Then I don't see gallery view on the result list page" classname="Then I don't see gallery view on the result list page" time="0.0" ignored="true"/>
+        <testcase name="And we have no &quot;more results&quot; link" classname="And we have no &quot;more results&quot; link" time="0.0" ignored="true"/>
+        <testcase name="And we have no photo content type limiter" classname="And we have no photo content type limiter" time="0.001" ignored="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Navigate to full list view of photographs" time="0.013">
+        <testcase name="Given I'm in NCCO" classname="Given I'm in NCCO" time="0.0"/>
+        <testcase name="Given On the results list with gallery view" classname="Given On the results list with gallery view" time="0.0" ignored="true"/>
+        <testcase name="When I navigate to the full list view of photographs" classname="When I navigate to the full list view of photographs" time="0.0" ignored="true"/>
+        <testcase name="Then I see more photographs" classname="Then I see more photographs" time="0.013" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,7 @@
+package craftDay.ncco;
+
+public interface NccoTestHarness {
+
+	void launchNcco();
+
+}
